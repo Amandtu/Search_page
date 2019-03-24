@@ -69,7 +69,7 @@ class App extends Component {
   render() {
     let show, show_t;
     if (this.state.check) {
-      show = <h1 className="heading">I can give you only User's Data</h1>;
+      show = <h1 className="heading">I can give you only User"'"s Data</h1>;
     }
     if (this.state.check_t) {
       show_t = (
