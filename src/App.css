@@ -44,6 +44,7 @@ body {
 .btn-wrap {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .btn {
   color: whitesmoke;
@@ -121,4 +122,12 @@ footer {
   margin-top: 250px;
   font-size: 18px;
   text-align: center;
+}
+@media (max-width: 550px) {
+  .input_box {
+    width: 80%;
+  }
+  .search_icon {
+    width: 10%;
+  }
 }
