@@ -32,13 +32,21 @@ class App extends Component {
     }
   };
   ClickmeHandler = () => {
-    if (this.state.check) {
-      var arr = [];
-      var str = "Oooooooops!!!!!";
-      this.setState({ users: arr, todos: arr, oops: str, check: false });
-    } else {
-      var str = "First submit the query!!";
-      this.setState({ oops: str });
+    if (!this.state.check_t) {
+      if (this.state.check) {
+        var arr = [];
+        var str = "Oooooooops!!!!! Deleted it.....";
+        this.setState({
+          users: arr,
+          todos: arr,
+          oops: str,
+          check: false,
+          check_t: false
+        });
+      } else {
+        var str = "First submit the query!!";
+        this.setState({ oops: str });
+      }
     }
   };
   HoverHandler = () => {
