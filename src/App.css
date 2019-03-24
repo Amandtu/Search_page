@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+}
+.heading {
+  font-size: 24px;
+  color: #1d3c78;
+  text-align: center;
+}
+.wrap {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.input_box {
+  color: #3578e5;
+  font-size: 16px;
+  width: 30%;
+  padding: 12px;
+  border: solid 2px #3578e5;
+  border-right: none;
+  overflow: hidden;
+  outline: none;
+}
+.search_icon {
+  font-size: 16px;
+  color: #fff;
+  width: 5%;
+  padding: 12px 5px;
+  background-color: #3578e5;
+  border: solid 2px #3578e5;
+  border-left: none;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+}
+.search_icon:hover {
+  color: gray;
+}
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  color: whitesmoke;
+  font-size: 16px;
+  margin: 10px;
+  padding: 12px 12px;
+  border-radius: 5px;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
+.btn-1 {
+  background: orange;
+}
+.btn-1:hover {
+  background: gold;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+.btn-2 {
+  background-color: crimson;
+}
+.btn-2:hover {
+  background-color: darkred;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+.btn-3 {
+  background-color: violet;
+}
+.btn-3:hover {
+  background-color: darkorchid;
+}
+.btn-4 {
+  background-color: chocolate;
+}
+.btn-4:hover {
+  background-color: darkorange;
+}
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.users {
+  width: 200px;
+  margin: 10px;
+  padding: 5px;
+  cursor: no-drop;
+  border: 2px solid cornflowerblue;
+  background-color: bisque;
+}
+li:hover {
+  background-color: aqua;
+}
+.todos {
+  width: 200px;
+  margin: 10px;
+  padding: 5px;
+  cursor: no-drop;
+  border: 2px solid black;
+  background-color: blueviolet;
+}
+.todos:hover {
+  background-color: aliceblue;
+}
+.oops {
+  text-align: center;
+  font-size: 36px;
+  color: yellowgreen;
+}
+footer {
+  margin-top: 250px;
+  font-size: 18px;
+  text-align: center;
+}
